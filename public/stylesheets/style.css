@@ -1,0 +1,193 @@
+.root {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+   
+  font-family: "Kanit", serif;
+   background-color:   #fae2a7   ;
+   
+}
+
+.box {
+  width: 800px;
+  height: 500px;
+  background: #fae2a7;
+  border: 1px solid  black;
+   
+  display: flex;
+  flex-direction: column;
+  padding: 10;
+}
+.box_display {
+  width: 900px;
+  height: 300px;
+  background:   #fae2a7;
+  border: 0.6px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10;
+}
+
+.title_box {
+  width: 100%;
+  height: 70px;
+  background:  #f3dda5;
+  border: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  padding: 5;
+
+}
+
+.inner_box {
+  width: 16%;
+  height: 60px;
+  background: white;
+  border: 0.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.titlt_text {
+  font-style: normal;
+  font-size: 10;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.text_box {
+  width: 90px;
+  min-height: 15px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  background: red;
+  border-radius: 3px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stylecenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stylebtn {
+  background: red;
+  color: yellow;
+}
+
+#flexSwitchCheckDefault:checked {
+  background-color: red;
+  border-color: aliceblue;
+}
+.appbar{
+  width: 100%;
+  height: 70px;
+  background:#f3dda5;
+  display:flex;
+  align-items:center;
+  font-family: "Kanit", serif;
+}
+.logosize{
+  width:100px;
+  height:70px;
+  padding:10px;
+
+}
+.userimage{
+  width:50px;
+  height:50px;
+  border-radius:30px;
+}
+.username_dashboard{
+  font-size:10px;
+  font-weight:bold;
+
+}
+.root_dashboard{
+  width: 100vw ;
+  height: 100vh ;
+  display:flex;
+  flex-direction:column; 
+   
+  
+}
+.dashboard_field{
+  width:100%;
+  height: 70vh;
+  background-color:  #fce2a2;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+.login_root {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-family: "Kanit", serif;
+  background-color: black   ;
+}
+
+.login_box {
+  width: 700px;
+  height: 500px;
+  background-color: black   ;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 10;
+  border: 2px solid #ff2770;
+  box-shadow: 0 0 30px #ff2770;
+  
+   
+}
+.shape{
+  transform: rotate(10deg) skew(40deg);
+}
+.input-icon{
+  background: url('password.png') ;
+  background-size: 20px;
+  padding-left: 30px;
+}
+.username{
+  width: 100%;
+   background: transparent;
+   border: none;
+   outline: none;
+   margin-top: 50px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+  padding-right: 23px;
+  top: 50%;
+  left: 0;
+   
+  
+
+}
+.password{
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+  top: 50%;
+  left: 0;
+   
+  
+}
+
